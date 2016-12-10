@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-less-mixins",
+  "version": "1.0.0",
+  "description": "Setup for Bootstrap Less mixins",
+  "main": "index.js",
+  "scripts": {
+    "start": "lessc -x assets/css/style.less style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flandrade/bootstrap-less-mixins.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "less",
+    "mixins"
+  ],
+  "author": "Fernanda Andrade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flandrade/bootstrap-less-mixins/issues"
+  },
+  "homepage": "https://github.com/flandrade/bootstrap-less-mixins#readme",
+  "dependencies": {
+    "less": "^2.7.1"
+  }
+}
